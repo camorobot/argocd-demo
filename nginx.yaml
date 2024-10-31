@@ -45,7 +45,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: nginx-argocd-demo.groep2.devops.aimsites.nl 
+  - host: nginx-argocd-demo.groep2.k8s.devops.aimsites.nl 
     http:
       paths:
       - path: /
